@@ -1,78 +1,147 @@
-html{
-    background: url("http://www.tokkoro.com/picsup/459533-piano-macbook-wallpapers-hd.jpg") bottom center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-}
-
-* {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-
-
-div.main h1{
-    
-    margin-top: 5%;
-    color: #FFF;
-    text-align: center;
-    font-size: 75px;
-    margin-bottom: 0px;
-    
-   
-}
-
-div.main p{
-    color:whitesmoke;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 0px;
-    
-  
-}
-
-div.main img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:20%;
-    height: auto;
-    border: 2px solid rgb(255, 255, 255);
-    
-}
-
 body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    .center { margin: 0 auto; }
+    .content{ margin: 0 auto; width: 960px; }
+    .clear { clear: both; }
+
+#header{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.63);
+    height: 80px;
+    margin-top: 0px;
+    position: fixed;
+}
+
+#nav{
+    width: 410 px;
+    float: right;
+    margin-top: 20px;
+}
+
+#logo a{
+    color: white;
+    text-decoration: none;
+    float: left;
+    font-size: 30px;
+    margin-top: 5px;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    font-weight: bold;
+}
+
+#nav ul{
+    list-style: none;
+    display: block;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#nav li{
+    margin-top: 9px;
+    float: left;
+    padding-left: 21px;
+}
+
+#nav li a {
+    color: white;
+    opacity: .8;
+    font-size: 20px;
+    text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
 
-div.about {
-    color: rgb(0, 0, 0);
-    width: 50%;
-    margin: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 20px;
-    background-color: rgba(250, 249, 245, 0.541);
-    padding: 10px 10px 10px 10px;
-    border-radius: 5px;
+#nav li a.active {
+    color: white;
+    opacity: 1;
+    border-bottom: 2px solid black;
+}
+
+#nav li a:hover {
+    color: grey;
+    opacity: 1;
+}
+
+#page1, #page2, #page3, #page4 {
+    width: 100%;
+}
+
+#page1{
+    background: url("piano_background.jpg") 50% 0 no-repeat fixed;
+    height: 500px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#page1 h1{
+    font-size: 50px;
+}
+
+#page1 p{
+    font-size: 25px;
+}
+
+
+#page2{
+    background-color: rgb(253, 253, 253);
+    height:350px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 55px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#page2 p{
+    text-align: center;
+    margin: 25px 25px 25px 25px;
+}
+
+#page2 img{
+    float: left;
+    width:23%;
+    height: auto;
+}
+
+#page3{
+    background: url("keyboard_laptop.jpg") 50% 0 no-repeat fixed;
+    height: 600px;
+    margin: 0;
+    padding: 200px 0 260px 0;
+    background-size: cover;
+}
+
+
+#page4{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    margin:0 auto;
+    overflow: hidden;
+    padding: 25px 0; 
     text-align: center;
 }
 
-div.contact {
-    background-color: rgba(250, 249, 245, 0.541);
-    width: 50%;
-    border-radius: 5px;
-    text-align: center;
-    margin: auto;
+#page4 p{
+    font-family: "Rock Salt", cursive;
+    font-size: 35px;
+    padding: 0px;
+    margin: 15px;
 }
 
-div.contact a, img {
-    display: inline-block;;
+#page4 a, img{
+    display: inline-block;
     width: 50px;
     height: auto;
-    margin: auto;
-    padding: 5px;
-    margin-right: 25px;
-    
+    padding-bottom:25px;
+    margin-right: 25px;  
 }
