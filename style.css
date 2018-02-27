@@ -99,18 +99,20 @@ body{
     overflow: hidden;
     padding-top: 25px;
     padding-bottom: 55px;
-    border: 2px solid rgb(0, 0, 0);
+
 }
 
 #page2 p{
     text-align: center;
     margin: 25px 25px 25px 25px;
+    padding-top: 35px;
 }
 
 #page2 img{
     float: left;
     width:23%;
     height: auto;
+
 }
 
 #page3{
@@ -119,6 +121,16 @@ body{
     margin: 0;
     padding: 200px 0 260px 0;
     background-size: cover;
+}
+
+#page3 #project{
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.603);
+    width: 250px;
+    height: 550px;
+    margin-left: 25px;
+    margin-right: 25px;
+
 }
 
 
