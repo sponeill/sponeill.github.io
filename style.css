@@ -55,11 +55,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-#nav li a.active {
+/*#nav li a.active {
     color: white;
     opacity: 1;
     border-bottom: 2px solid black;
 }
+This was only underlining the 'Home' link. Fix?
+*/
 
 #nav li a:hover {
     color: grey;
@@ -134,14 +136,13 @@ body{
 
 #page3 #project{
     display: inline-block;
+    text-align: center;
     background: rgba(255, 255, 255, 0.603);
     width: 250px;
     height: 550px;
     margin-left: 25px;
     margin-right: 25px;
-
 }
-
 
 #page4{
     background-color: rgb(255, 255, 255);
