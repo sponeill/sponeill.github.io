@@ -98,21 +98,30 @@ body{
     margin: 0 auto;
     overflow: hidden;
     padding-top: 25px;
-    padding-bottom: 55px;
-
+    padding-bottom: 65px;
 }
 
 #page2 p{
     text-align: center;
     margin: 25px 25px 25px 25px;
-    padding-top: 35px;
+    padding-top: 0px;
 }
 
-#page2 img{
+#page2 img {
     float: left;
-    width:23%;
+    width:24%;
     height: auto;
+}
 
+#page2 #school_logos{
+    padding-left: 390px;
+}
+
+#page2 #school_logos #school{
+    display: inline-block;
+    width: 60px;
+    height: auto;
+    margin-left:50px;
 }
 
 #page3{
