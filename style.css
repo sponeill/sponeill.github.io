@@ -134,9 +134,9 @@ This was only underlining the 'Home' link. Fix?
 
 #page3{
     background: url("keyboard_laptop.jpg") 50% 0 no-repeat fixed;
-    height: 600px;
+    height: 620px;
     margin: 0;
-    padding: 200px 0 260px 0;
+    padding: 110px 0 260px 0;
     background-size: cover;
     
 }
@@ -145,7 +145,9 @@ This was only underlining the 'Home' link. Fix?
     font-family: 'Rock Salt', cursive;
     color: white;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
     margin-right: 55px;
 }
 
@@ -154,11 +156,12 @@ This was only underlining the 'Home' link. Fix?
     display: inline-block;
     text-align: center;
     background: rgba(255, 255, 255, 0.705);
-    width: 250px;
-    height: 550px;
+    width: 265px;
+    height: 325px;
     margin-left: 25px;
     vertical-align: top;
     margin-right: 25px;
+    margin-bottom: 50px;
 }
 
 #page3 #project ul{
@@ -170,6 +173,11 @@ This was only underlining the 'Home' link. Fix?
 #page3 #project img{
     width: 70px;
     height: auto;
+    padding-bottom: 0px;
+}
+
+#idea{
+    margin-top: 80px;
 }
 
 #page4{
