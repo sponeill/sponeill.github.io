@@ -91,7 +91,13 @@ This was only underlining the 'Home' link. Fix?
 
 #page1 p{
     font-size: 25px;
+    padding-bottom: 300px;
 }
+
+
+/*#page1 .content {
+    background: rgba(255, 255, 255, 0.205);
+}*/
 
 .anchor{
     display: block;
